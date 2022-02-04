@@ -1,12 +1,18 @@
+import InputComponent from './InputComponent';
+import OutputComponent from './OutputComponent';
+
+import React from 'react';
 
 
 
 function App () {
+	let inputProps = {};
+	let outputProps = {};
+
 	return (
 		<div className="App">
-			<main className="flex min-h-screen bg-blue-500 text-white">
-				<h2 className="text-[120px] m-auto">json</h2>
-			</main>
+			<InputComponent {...inputProps} />
+			<OutputComponent {...outputProps} />
 		</div>
 	);
 }
