@@ -1,7 +1,9 @@
 
 
 
-export default function Visualizer () {
+export default function Visualizer ({
+	settings
+}) {
 	return (
 		<div className="Visualizer px-4 py-16 bg-slate-100">
 			<div className="max-w-4xl mx-auto shadow">

@@ -4,11 +4,13 @@ import Footer from './Footer';
 
 import React from 'react';
 
+import settings from './settings.json';
+
 
 
 function App () {
-	let formatterProps = {};
-	let visualizerProps = {};
+	let formatterProps = {settings};
+	let visualizerProps = {settings};
 
 	return (
 		<div className="App">

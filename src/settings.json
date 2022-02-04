@@ -1,0 +1,20 @@
+{
+	"indentations": [
+		{
+			"name": "minify",
+			"value": ""
+		},
+		{
+			"name": "2 spaces",
+			"value": "  "
+		},
+		{
+			"name": "4 spaces",
+			"value": "    "
+		},
+		{
+			"name": "Tabs",
+			"value": "\t"
+		}
+	]
+}
