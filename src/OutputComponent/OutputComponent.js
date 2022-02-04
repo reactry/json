@@ -3,7 +3,7 @@
 
 export default function OutputComponent () {
 	return (
-		<div className="OutputComponent py-16 bg-slate-100">
+		<div className="OutputComponent px-4 py-16 bg-slate-100">
 			<div className="max-w-4xl mx-auto shadow">
 				<div className="bg-slate-200 px-6 py-4">
 					<h1 className="text-xl">Output</h1>

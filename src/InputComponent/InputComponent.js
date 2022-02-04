@@ -3,7 +3,7 @@
 
 export default function InputComponent () {
 	return (
-		<div className="InputComponent py-16 bg-slate-300">
+		<div className="InputComponent px-4 py-16 bg-slate-300">
 			<div className="max-w-4xl mx-auto shadow">
 				<div className="bg-slate-200 px-6 py-4">
 					<h1 className="text-xl">Input</h1>
