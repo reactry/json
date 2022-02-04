@@ -10,12 +10,13 @@ export default function Formatter ({
 }) {
 
 	let [showOutput, setShowOutput] = React.useState(false);
+	let [currentIndentation, setCurrentIndentation] = React.useState(0);
 
 	let tabsProps = {
 		showOutput, setShowOutput
 	};
 	let indentationsProps = {
-		settings
+		settings, currentIndentation, setCurrentIndentation
 	};
 
 	return (
