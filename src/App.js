@@ -1,5 +1,5 @@
-import InputComponent from './InputComponent';
-import OutputComponent from './OutputComponent';
+import Formatter from './Formatter';
+import Visualizer from './Visualizer';
 import Footer from './Footer';
 
 import React from 'react';
@@ -7,13 +7,13 @@ import React from 'react';
 
 
 function App () {
-	let inputProps = {};
-	let outputProps = {};
+	let formatterProps = {};
+	let visualizerProps = {};
 
 	return (
 		<div className="App">
-			<InputComponent {...inputProps} />
-			<OutputComponent {...outputProps} />
+			<Formatter {...formatterProps} />
+			<Visualizer {...visualizerProps} />
 			<Footer />
 		</div>
 	);
